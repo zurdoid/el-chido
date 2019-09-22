@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/stylev.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+
+    <title>Ventas</title>
+</head>
+<body>
+    <header>
+        <p>Cerrar Sesión</p>
+        <p>Hola <b>BLA BLA BLA</b></p>        
+    </header>
+    
+
+     <div class="procesos">
+        <h2>Procesos</h2>
+        <ul>
+          <li>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                  Cesiones de Derecho
+                </button>
+          </li>
+          <li>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                  Audiencia de Remate
+                </button>
+          </li>
+          <li>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                  telemarketing
+                </button>
+          </li>
+          <li>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                  Ventas
+                </button>
+          </li>
+        </ul>
+    </div>
+
+
+      
+      <aside class="pizarron">
+                <table style="width:100%">
+                        <tr>
+                          <th>Gayol</th>
+                          <th><b></b></th> 
+                          <th>Providencia</th>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td></td> 
+                          <td>3</td>
+                        </tr>
+                </table>
+                  
+                  <div class="card"  style="width: 18rem;">
+                          <img src="/img/tajo.JPG" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                  </div>
+            
+        </aside>
+
+        
+    
+
+    <div class="contenedor">
+        <p> LOGO </p>
+        
+              <nav class="nav">
+                <a class="nav-link active" href="#">Listas</a>
+                <a class="nav-link" href="#">Cesiones de Derechos</a>
+                <a class="nav-link" href="#">Audiencias de Remate</a>
+              </nav>
+
+                
+
+        <div class="Buscador">
+
+            <button type="button" class="btbuscar" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Buscador
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Buscar</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>
+                        <label for=""> ID </label>
+                        <input type="text" placeholder="ID">
+                        </li>
+                        
+                        <li>
+                        <label for="">Dirección</label>    
+                        <input type="text" placeholder="Calle">
+                        </li>
+
+                        <li>
+                        <label for="">Colonia</label>    
+                        <input type="text" placeholder="Colonia">
+                        </li>
+                    
+                        <li>
+                        <label for="">Municipio</label>    
+                        <input type="text" placeholder="Delegación">
+                        </li> 
+                    
+                        <li>
+                        <label for="">Estado</label>    
+                        <input type="text" placeholder="Estado">
+                        </li>
+                    
+                        <li>
+                        <label for="">Palabra Clave</label>    
+                        <input type="text">
+                        </li>
+
+                        <input type="submit" value="Buscar" class="btbuscar">
+                      </ul>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+              <div class="actualizaciones">
+        
+                  <h2>ULTIMAS ACTUALIZACIONES</h2>
+                  <div class="overflow-auto">
+                          <p class="text-monospace">
+                            <ul>
+                              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi tenetur temporibus non ducimus velit, cupiditate nemo consequuntur a assumenda obcaecati quod optio veritatis reiciendis quia, ab autem qui blanditiis minus.</li>
+                              <br>
+                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, fugit sint soluta labore atque reprehenderit sequi, quo pariatur assumenda architecto praesentium, expedita explicabo earum minus doloremque neque ducimus eaque repellendus.</li>
+                              <br>
+                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima provident, asperiores animi enim non dolores repellendus natus laborum adipisci totam ipsam deserunt. Et, magnam sint a quisquam labore accusantium.</li>
+                              <br>
+                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ad quaerat, excepturi error itaque quidem at quae exercitationem quod eveniet maiores quibusdam, dolores corrupti possimus ullam. Recusandae unde exercitationem blanditiis.</li>
+                              <br>
+                              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, cupiditate. Dolor natus cumque, sed animi ipsa facilis sequi error ratione cupiditate eius veniam perferendis architecto. Aspernatur aperiam tenetur nam qui.</li>
+      
+                            </ul>
+      
+                          </p>
+                  </div>
+              </div> 
+      
+
+
+
+            
+
+    </div><!--contenedor-->
+
+    
+
+    
+</body>
+</html>
