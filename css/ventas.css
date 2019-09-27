@@ -104,15 +104,15 @@ body{
     }
 }
 .bt-nav{
-            background-color: #0060b4;
-            color: #ffffff;
-
+    background-color: #0060b4;
+    color: #ffffff;
     display: block;
     font-weight: 600;
     width: 90%;
     padding: 10px 0px;
     border-radius: 8px;
     text-decoration: none;
+    
 }
 
 .bt-nav:hover{

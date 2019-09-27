@@ -4,177 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/stylev.css">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <title>Ventas</title>
+    <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normailize.css">
+    <link rel="stylesheet" href="/css/ventas.css">
+    <title>VENTAS3</title>
 </head>
 <body>
-    <header>
-        <p>Cerrar Sesión</p>
-        <p>Hola <b>BLA BLA BLA</b></p>        
+
+    <header class="encabezado">
+        <div class="empresa">
+            <img src="/img/LOGO-GM.jpg" alt="Logo">
+            <h2 class="logo">Servicios Profesionales</h2>
+        </div>
+        <div class="sesion">
+            <p>Hola <b>Usuario</b></p>
+            <p>Cerrar Sesión</p>
+        </div>
     </header>
-    
 
-     <div class="procesos">
-        <h2>Procesos</h2>
-        <ul>
-          <li>
-              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                  Cesiones de Derecho
-                </button>
-          </li>
-          <li>
-              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                  Audiencia de Remate
-                </button>
-          </li>
-          <li>
-              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                  telemarketing
-                </button>
-          </li>
-          <li>
-              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                  Ventas
-                </button>
-          </li>
-        </ul>
-    </div>
-
-
-      
-      <aside class="pizarron">
-                <table style="width:100%">
-                        <tr>
-                          <th>Gayol</th>
-                          <th><b></b></th> 
-                          <th>Providencia</th>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td></td> 
-                          <td>3</td>
-                        </tr>
-                </table>
-                  
-                  <div class="card"  style="width: 18rem;">
-                          <img src="/img/tajo.JPG" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                  </div>
-            
-        </aside>
-
-        
-    
-
-    <div class="contenedor">
-        <p> LOGO </p>
-        
-              <nav class="nav">
-                <a class="nav-link active" href="#">Listas</a>
-                <a class="nav-link" href="#">Cesiones de Derechos</a>
-                <a class="nav-link" href="#">Audiencias de Remate</a>
-              </nav>
-
+    <div class="pag">
+        <div class="contenedor">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="bt-nav">Buscador</a></li>
+                    <li><a href="#" class="bt-nav">Promociones</a></li>
+                    <li><a href="#" class="bt-nav">Ventas</a></li>
+                    <li><a href="#" class="bt-nav">Marketing</a></li>
+                </ul>
+            </nav>
+            <div class="actual">
+                <h1>Actualizaciones del Mes</h1>
                 
-
-        <div class="Buscador">
-
-            <button type="button" class="btbuscar" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Buscador
-              </button>
-              
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Buscar</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <ul>
+                <ol class="actualizaciones">
+                    <div class="overflow-auto">                    
                         <li>
-                        <label for=""> ID </label>
-                        <input type="text" placeholder="ID">
+                            <p><b>Fecha de Actualización 21-8-19</b></p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut exercitationem, quod quas aut quasi velit ipsa voluptatibus libero blanditiis consectetur voluptas quisquam recusandae rem numquam iusto omnis nulla commodi nesciunt.</p>
                         </li>
-                        
                         <li>
-                        <label for="">Dirección</label>    
-                        <input type="text" placeholder="Calle">
+                            <p><b>Fecha de Actualización 21-8-19</b></p>
+                            <p> Distinctio ratione provident culpa labore itaque, fugit fuga excepturi facilis laboriosam voluptate modi similique, aperiam, ad perferendis quisquam error necessitatibus dolorum assumenda?</p>
                         </li>
-
                         <li>
-                        <label for="">Colonia</label>    
-                        <input type="text" placeholder="Colonia">
+                            <p><b>Fecha de Actualización 21-8-19</b></p>
+                            <p> Mollitia, magni suscipit aliquid repellat blanditiis asperiores ratione dicta voluptas tempore earum officiis voluptatibus similique, at aperiam quaerat nulla? Soluta, vitae deleniti.</p>
                         </li>
-                    
                         <li>
-                        <label for="">Municipio</label>    
-                        <input type="text" placeholder="Delegación">
+                            <p><b>fecha de Actualización 21-8-19</b></p>
+                            <p>Ratione rem deleniti placeat, nemo corrupti non vitae, velit hic amet blanditiis quo magnam accusantium tempora laborum molestiae. Repellendus voluptas nobis et.</p>
+                        </li>
+                        <li>
+                            <p><b>Fecha de Actualización 21-8-19</b></p>
+                            <p> Vero pariatur, ratione eaque error quasi labore odit, veniam voluptatibus tempora non repellat eos laborum perspiciatis quos, consequuntur voluptas laudantium ullam accusantium.</p>
                         </li> 
-                    
-                        <li>
-                        <label for="">Estado</label>    
-                        <input type="text" placeholder="Estado">
-                        </li>
-                    
-                        <li>
-                        <label for="">Palabra Clave</label>    
-                        <input type="text">
-                        </li>
+                    </div>
+                </ol>
+            </div>
+            
 
-                        <input type="submit" value="Buscar" class="btbuscar">
-                      </ul>
-                    </div>
-                    </div>
-                  </div>
-                </div>
+            <nav aria-label="..." class="pags"><!--pagination-->
+                <ul class="pagination pagination-lg" >
+                  <li class="page-item"><a class="page-link" href="#">JUN</a></li>
+                  <li class="page-item"><a class="page-link" href="#">JUL</a></li>
+                  <li class="page-item active" aria-current="page">
+                      <span class="page-link">
+                        AGO
+                        <span class="sr-only">(current)</span>
+                      </span>
+                  </li>                  
+                </ul>
+              </nav>
         </div>
 
-              <div class="actualizaciones">
-        
-                  <h2>ULTIMAS ACTUALIZACIONES</h2>
-                  <div class="overflow-auto">
-                          <p class="text-monospace">
-                            <ul>
-                              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi tenetur temporibus non ducimus velit, cupiditate nemo consequuntur a assumenda obcaecati quod optio veritatis reiciendis quia, ab autem qui blanditiis minus.</li>
-                              <br>
-                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, fugit sint soluta labore atque reprehenderit sequi, quo pariatur assumenda architecto praesentium, expedita explicabo earum minus doloremque neque ducimus eaque repellendus.</li>
-                              <br>
-                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima provident, asperiores animi enim non dolores repellendus natus laborum adipisci totam ipsam deserunt. Et, magnam sint a quisquam labore accusantium.</li>
-                              <br>
-                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ad quaerat, excepturi error itaque quidem at quae exercitationem quod eveniet maiores quibusdam, dolores corrupti possimus ullam. Recusandae unde exercitationem blanditiis.</li>
-                              <br>
-                              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, cupiditate. Dolor natus cumque, sed animi ipsa facilis sequi error ratione cupiditate eius veniam perferendis architecto. Aspernatur aperiam tenetur nam qui.</li>
-      
-                            </ul>
-      
-                          </p>
-                  </div>
-              </div> 
-      
+        <aside class="sidebar">
+            <div class="sidebar1">
+                <div class="pizarron">
+                        <table style="width:100%">
+                                <tr>
+                                <td>Gayol&ensp;&ensp;&ensp;</th>
+                                
+                                <td>Providencia</th>
+                                </tr>
+                                <tr>
+                                <td>5&ensp;</td>
+                                
+                                <td>3</td>
+                                </tr>
+                        </table>
+                </div>
+            </div>
 
-
-
-            
-
-    </div><!--contenedor-->
+            <div class="sidebar2">
+                <ul>
+                    <li><a href="http://www.segundamano.com"><img src="/img/2damano.jpg" alt="segundamano" class="tiendas" title="Segundamano"></a></li>
+                    <li><a href="https://www.inmuebles24.com"><img src="/img/i24.png" alt="i24" class="tiendas" title="Inmuebles24"></a></li>
+                    <li><a href="https://www.lamudi.com.mx"><img src="/img/lamudi.jpg" alt="lamudi" class="tiendas" title="Lamudi"></a></li>
+                    <li><a href="https://www.mitula.mx"><img src="/img/mitula.png" alt="mitula" class="tiendas" title="Mitula"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.nocnok.com"><img src="/img/nocnok.jpg" alt="nocnok" class="tiendas" title="NOCNOK"></a></li>
+                    <li><a href="https://propiedades.com"><img src="/img/propiedades.jpg" alt="propiedades" class="tiendas" title="Propiedades.com"></a></li>
+                    <li><a href="www.trovit.com.mx/"><img src="/img/trovit.jpg" alt="trovit" class="tiendas" title="Trovit"></a></li>
+                    <li><a href="www.vivanuncios.com.mx/‎"><img src="/img/viva.jpg" alt="viva" class="tiendas" title="Vivaanuncios"></a></li>
+                </ul>
+            </div>
+            <p class="derechos">Todos los derechos reservados &copy;</p>
+        </aside>
+    </div>
 
     
 
     
+
 </body>
 </html>
