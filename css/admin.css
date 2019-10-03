@@ -89,8 +89,20 @@ h1{
 
 .table{
     margin-top: 20px;
-    border: solid #000000 3px;
+    border: none; 
+       
+}
+.comentario{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    height: 60px;  
 }
 .table td, th{
     text-align: center;
+}
+.actualizar label{
+    padding-top: 40px;
+    margin: 0;
+    font-size: 20px;
 }
