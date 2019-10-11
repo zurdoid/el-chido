@@ -60,6 +60,7 @@ body{
 .pag{
     display: flex;
     justify-content: space-between;
+    
 }
 @media (max-width: 768px){
     .pag{
@@ -72,6 +73,7 @@ body{
 .contenedor{
     flex-basis: 70%;
     background-color: #f1f1f1;
+    
 }
 
 .navbar{
@@ -112,6 +114,7 @@ body{
     padding: 10px 0px;
     border-radius: 8px;
     text-decoration: none;
+    
     
 }
 
@@ -219,3 +222,6 @@ body{
     
 }
 
+.modal-content img{
+    max-width: 1200px;
+}

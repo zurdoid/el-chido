@@ -127,3 +127,8 @@ body{
     font-weight: 700;
     text-decoration: none;
 }
+
+.modal-content img{
+    width: 1200px;
+}
+
