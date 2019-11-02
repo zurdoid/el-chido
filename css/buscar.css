@@ -128,13 +128,19 @@ body{
 .tarjetero{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 15px;
+    column-gap: 40px;
 }
 .tarjeta{
     margin-bottom: 30px; 
     border: solid 1px #05243b44;
     border-radius: 5px;
     background-color: #ffffff;
+    transition: all .3s ease;
+}
+.tarjeta:hover{/*-----para dar efecto a la tarjeta, JUNTO CON EL TRANSITION de arriba----*/
+    transform: scale(1.05);
+    border: solid 2px #006fd6;
+    box-shadow: 0px 0px 50px #666;
 }
 .encabezado-tarjeta{
     padding: 20px 0 10px 0;
